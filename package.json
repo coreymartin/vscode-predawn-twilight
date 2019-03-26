@@ -1,0 +1,22 @@
+{
+    "name": "predawn-twilight",
+    "displayName": "Predawn Twilight",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "CoreyMartin",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Corey Predawn Twilight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/predawn-twilight-theme.json"
+            }
+        ]
+    }
+}
