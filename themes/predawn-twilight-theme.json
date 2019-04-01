@@ -63,30 +63,14 @@
 			}
 		},
 		{
-			"name": "Invalid – Deprecated",
-			"scope": "invalid.deprecated",
-			"settings": {
-				"fontStyle": "italic underline",
-				"foreground": "#D2A8A1"
-			}
-		},
-		{
-			"name": "Invalid – Illegal",
-			"scope": "invalid.illegal",
-			"settings": {
-				"background": "#562D56BF",
-				"foreground": "#F8F8F8"
-			}
-		},
-		{
-			"name": "♦ Embedded Source",
+			"name": "Embedded Source",
 			"scope": "text source",
 			"settings": {
-				"background": "#B0B3BA14"
+				"background": "#7587A6"
 			}
 		},
 		{
-			"name": "♦ Entity inherited-class",
+			"name": "Entity inherited-class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
 				"fontStyle": "italic",
@@ -94,7 +78,7 @@
 			}
 		},
 		{
-			"name": "♦ String embedded-source",
+			"name": "String embedded-source",
 			"scope": "string source",
 			"settings": {
 				"fontStyle": "",
@@ -102,25 +86,24 @@
 			}
 		},
 		{
-			"name": "♦ String constant",
+			"name": "String constant",
 			"scope": "string constant",
 			"settings": {
 				"foreground": "#DDF2A4"
 			}
 		},
 		{
-			"name": "♦ String.regexp",
+			"name": "String.regexp",
 			"scope": "string.regexp",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#E9C062"
+				"foreground": "#CDA869"
 			}
 		},
 		{
-			"name": "♦ String.regexp.«special»",
+			"name": "String.regexp.special",
 			"scope": [
 				"string.regexp constant.character.escape",
-				"string.regexp source.ruby.embedded",
 				"string.regexp string.regexp.arbitrary-repitition"
 			],
 			"settings": {
@@ -128,22 +111,22 @@
 			}
 		},
 		{
-			"name": "♦ String variable",
+			"name": "String variable",
 			"scope": "string variable",
 			"settings": {
-				"foreground": "#8A9A95"
+				"foreground": "#7587A6"
 			}
 		},
 		{
-			"name": "♦ Support.function",
+			"name": "Support.function",
 			"scope": "support.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#DAD085"
+				"foreground": "#CDA869"
 			}
 		},
 		{
-			"name": "♦ Support.constant",
+			"name": "Support.constant",
 			"scope": "support.constant",
 			"settings": {
 				"fontStyle": "",
@@ -151,82 +134,42 @@
 			}
 		},
 		{
-			"name": "c C/C++ Preprocessor Line",
-			"scope": "meta.preprocessor.c",
-			"settings": {
-				"foreground": "#8996A8"
-			}
-		},
-		{
-			"name": "c C/C++ Preprocessor Directive",
-			"scope": "meta.preprocessor.c keyword",
-			"settings": {
-				"foreground": "#AFC4DB"
-			}
-		},
-		{
-			"name": "✘ Doctype/XML Processing",
-			"scope": [
-				"meta.tag.sgml.doctype",
-				"meta.tag.sgml.doctype entity",
-				"meta.tag.sgml.doctype string",
-				"meta.tag.preprocessor.xml",
-				"meta.tag.preprocessor.xml entity",
-				"meta.tag.preprocessor.xml string"
-			],
-			"settings": {
-				"foreground": "#494949"
-			}
-		},
-		{
-			"name": "✘ Meta.tag.«all»",
-			"scope": [
-				"declaration.tag",
-				"declaration.tag entity",
-				"meta.tag",
-				"meta.tag entity"
-			],
-			"settings": {
-				"foreground": "#AC885B"
-			}
-		},
-		{
-			"name": "§ css tag-name",
+			"name": "css tag-name",
 			"scope": "meta.selector.css entity.name.tag",
 			"settings": {
 				"foreground": "#CDA869"
 			}
 		},
 		{
-			"name": "§ css:pseudo-class",
+			"name": "css:pseudo-class",
 			"scope": "meta.selector.css entity.other.attribute-name.tag.pseudo-class",
 			"settings": {
 				"foreground": "#8F9D6A"
 			}
 		},
 		{
-			"name": "§ css#id",
+			"name": "css#id",
 			"scope": "meta.selector.css entity.other.attribute-name.id",
 			"settings": {
-				"foreground": "#8B98AB"
+				"foreground": "#7587A6"
 			}
 		},
 		{
-			"name": "§ css.class",
+			"name": "css.class",
 			"scope": "meta.selector.css entity.other.attribute-name.class",
 			"settings": {
 				"foreground": "#9B703F"
 			}
 		},
 		{
-			"name": "§ css property-name:",
+			"name": "css property-name:",
 			"scope": "support.type.property-name.css",
 			"settings": {
 				"foreground": "#C5AF75"
 			}
 		},
 		{
-			"name": "§ css property-value;",
+			"name": "css property-value;",
 			"scope": [
 				"meta.property-group support.constant.property-value.css",
 				"meta.property-value support.constant.property-value.css"
@@ -236,14 +179,14 @@
 			}
 		},
 		{
-			"name": "§ css @at-rule",
+			"name": "css @at-rule",
 			"scope": "meta.preprocessor.at-rule keyword.control.at-rule",
 			"settings": {
-				"foreground": "#8693A5"
+				"foreground": "#7587A6"
 			}
 		},
 		{
-			"name": "§ css additional-constants",
+			"name": "css additional-constants",
 			"scope": [
 				"meta.property-value support.constant.named-color.css",
 				"meta.property-value constant"
@@ -253,7 +196,7 @@
 			}
 		},
 		{
-			"name": "§ css constructor.argument",
+			"name": "css constructor.argument",
 			"scope": "meta.constructor.argument.css",
 			"settings": {
 				"foreground": "#8F9D6A"
@@ -267,45 +210,10 @@
       }
     },
     {
-      "name": "js/ts import keyword",
-      "scope": "keyword.operator.expression.import",
-      "settings": {
-        "foreground": "#61AFEF"
-      }
-    },
-    {
-      "name": "math js/ts",
-      "scope": "support.constant.math",
-      "settings": {
-        "foreground": "#E5C07B"
-      }
-    },
-    {
-      "name": "math property js/ts",
-      "scope": "support.constant.property.math",
-      "settings": {
-        "foreground": "#d19a66"
-      }
-    },
-    {
       "name": "js/ts template-expression",
       "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end",
       "settings": {
-        "foreground": "#e06c75"
-      }
-    },
-    {
-      "name": "js/ts module",
-      "scope": "support.module.node,support.type.object.module,support.module.node",
-      "settings": {
-        "foreground": "#E5C07B"
-      }
-    },
-    {
-      "name": "js/ts json",
-      "scope": "support.constant.json",
-      "settings": {
-        "foreground": "#d19a66"
+        "foreground": "#CDA869"
       }
     },
     {
@@ -321,17 +229,10 @@
       }
     },
     {
-      "name": "js/ts console",
-      "scope": "support.type.object.console",
-      "settings": {
-        "foreground": "#e06c75"
-      }
-    },
-    {
       "name": "js/ts support.variable.property.process",
       "scope": "support.variable.property.process",
       "settings": {
-        "foreground": "#d19a66"
+        "foreground": "#CDA869"
       }
     },
     {
@@ -351,7 +252,8 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"meta.parameters.js"
 			],
 			"settings": {
 				"foreground": "#FFFFFF"
@@ -387,10 +289,11 @@
 				"support.constant.math",
 				"support.constant.dom",
 				"support.constant.json",
-				"entity.other.inherited-class"
+				"entity.other.inherited-class",
+				"variable.parameter.js"
 			],
       "settings": {
-        "foreground": "#7587A6",
+        "foreground": "#7587A6"
       }
 		},
 		{
@@ -424,12 +327,28 @@
 				"source entity.name.tag",
 				"source entity.other.attribute-name",
 				"meta.tag.inline",
-				"meta.tag.inline entity"
+				"meta.tag.inline entity",
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag.end",
+				"declaration.tag",
+				"declaration.tag entity",
+				"meta.tag",
+				"meta.tag entity"
 			],
 			"settings": {
 				"foreground": "#D8BE84"
 			}
 		},
+		{
+			"name": "React children",
+			"scope": [
+				"meta.jsx.children.js.jsx",
+				"meta.embedded.expression.js.jsx"
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		}
 	],
 	"colors": {
 		"editor.background": "#282828",
@@ -450,8 +369,11 @@
     "statusBar.noFolderBackground" : "#222225",
     "statusBar.debuggingBackground": "#511f1f",
     "editorError.foreground": "#cf6a4cab",
-    "editorWarning.foreground": "#e0d58e4f",
-    "editorInfo.foreground": "#00f"
+    "editorWarning.foreground": "#F9EE98",
+		"editorInfo.foreground": "#00f",
+		"editorGutter.addedBackground": "#8f9d6a46",
+		"editorGutter.deletedBackground": "#cf6b4c38",
+		"editorGutter.modifiedBackground": "#ffffff1e"
 	},
 	"name": "Predawn Twilight"
 }
