@@ -373,7 +373,25 @@
 		"editorInfo.foreground": "#00f",
 		"editorGutter.addedBackground": "#8f9d6a46",
 		"editorGutter.deletedBackground": "#cf6b4c38",
-		"editorGutter.modifiedBackground": "#ffffff1e"
+		"editorGutter.modifiedBackground": "#ffffff1e",
+		"terminal.background":"#282828",
+		"terminal.foreground":"#b3b3b3",
+		"terminal.ansiBlack":"#343333",
+		"terminal.ansiBrightBlack":"#888b89",
+		"terminal.ansiBlue": "#70829f",
+		"terminal.ansiBrightBlue":"#70829f",
+		"terminal.ansiCyan":"#70829f",
+		"terminal.ansiBrightCyan":"#70829f",
+		"terminal.ansiGreen":"#8d9a67",
+		"terminal.ansiBrightGreen":"#8d9a67",
+		"terminal.ansiMagenta":"#f58a8d",
+		"terminal.ansiBrightMagenta":"#ffb4b8",
+		"terminal.ansiRed":"#fd7e63",
+		"terminal.ansiBrightRed":"#ce6a4d",
+		"terminal.ansiWhite":"#fefaa9",
+		"terminal.ansiBrightWhite":"#fefefe",
+		"terminal.ansiYellow":"#e2db85",
+		"terminal.ansiBrightYellow":"#e2db88"
 	},
 	"name": "Predawn Twilight"
 }
