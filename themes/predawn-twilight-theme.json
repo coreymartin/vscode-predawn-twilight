@@ -418,7 +418,19 @@
 		"textLink.activeForeground": "#7587A6",
 		"textLink.foreground": "#7587A6",
 		"activityBarBadge.background": "#6885b7",
-		"activityBarBadge.foreground": "#ffffff"
+		"activityBarBadge.foreground": "#ffffff",
+		"list.activeSelectionBackground": "#ffffff0f",
+		"list.inactiveSelectionBackground": "#ffffff0f",
+		"gitDecoration.addedResourceForeground": "#81b88b",
+		"gitDecoration.conflictingResourceForeground": "#e4676b",
+		"gitDecoration.deletedResourceForeground": "#c74e39",
+		"gitDecoration.ignoredResourceForeground": "#8c8c8c",
+		"gitDecoration.modifiedResourceForeground": "#8F9D6A",
+		"gitDecoration.renamedResourceForeground": "#73c991",
+		"gitDecoration.stageDeletedResourceForeground": "#c74e39",
+		"gitDecoration.stageModifiedResourceForeground": "#e2c08d",
+		"gitDecoration.submoduleResourceForeground": "#7587A6",
+		"gitDecoration.untrackedResourceForeground": "#8F9D6A"
 	},
 	"name": "Predawn Twilight"
 }
