@@ -430,7 +430,15 @@
 		"gitDecoration.stageDeletedResourceForeground": "#c74e39",
 		"gitDecoration.stageModifiedResourceForeground": "#e2c08d",
 		"gitDecoration.submoduleResourceForeground": "#7587A6",
-		"gitDecoration.untrackedResourceForeground": "#8F9D6A"
+		"gitDecoration.untrackedResourceForeground": "#8F9D6A",
+		"editorOverviewRuler.findMatchForeground": "#CDA869",
+		"pickerGroup.foreground": "#8F9D6A",
+		"editorHoverWidget.highlightForeground": "#8F9D6A",
+		"editorLink.activeForeground": "#7587A6",
+		"editorSuggestWidget.focusHighlightForeground": "#8F9D6A",
+		"editorSuggestWidget.highlightForeground": "#8F9D6A",
+		"list.focusHighlightForeground": "#CF6A4C",
+		"list.highlightForeground": "#CF6A4C"
 	},
 	"name": "Predawn Twilight"
 }
