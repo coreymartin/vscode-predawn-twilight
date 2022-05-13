@@ -435,8 +435,8 @@
 		"pickerGroup.foreground": "#8F9D6A",
 		"editorHoverWidget.highlightForeground": "#8F9D6A",
 		"editorLink.activeForeground": "#7587A6",
-		"editorSuggestWidget.focusHighlightForeground": "#8F9D6A",
-		"editorSuggestWidget.highlightForeground": "#8F9D6A",
+		"editorSuggestWidget.focusHighlightForeground": "#CF6A4C",
+		"editorSuggestWidget.highlightForeground": "#CF6A4C",
 		"list.focusHighlightForeground": "#CF6A4C",
 		"list.highlightForeground": "#CF6A4C"
 	},
