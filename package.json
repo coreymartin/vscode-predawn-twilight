@@ -13,7 +13,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Corey Predawn Twilight",
+                "label": "Predawn Twilight",
                 "uiTheme": "vs-dark",
                 "path": "./themes/predawn-twilight-theme.json"
             }
