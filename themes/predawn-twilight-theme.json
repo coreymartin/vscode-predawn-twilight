@@ -375,7 +375,7 @@
 		"editorGutter.deletedBackground": "#cf6b4c38",
 		"editorGutter.modifiedBackground": "#ffffff1e",
 		"terminal.background":"#282828",
-		"terminal.foreground":"#b3b3b3",
+		"terminal.foreground":"#B3B3B3",
 		"terminal.ansiBlack":"#343333",
 		"terminal.ansiBrightBlack":"#888b89",
 		"terminal.ansiBlue": "#70829f",
@@ -438,7 +438,10 @@
 		"editorSuggestWidget.focusHighlightForeground": "#CF6A4C",
 		"editorSuggestWidget.highlightForeground": "#CF6A4C",
 		"list.focusHighlightForeground": "#CF6A4C",
-		"list.highlightForeground": "#CF6A4C"
+		"list.highlightForeground": "#CF6A4C",
+		"debugConsole.infoForeground": "#B3B3B3",
+		"debugConsole.warningForeground": "#e2db85",
+		"debugConsole.errorForeground": "#fd7e63"
 	},
 	"name": "Predawn Twilight"
 }
